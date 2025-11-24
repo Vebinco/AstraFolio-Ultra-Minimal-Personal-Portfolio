@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstraFolio — Responsive Portfolio v2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mouse-glow"></div>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">AstraFolio</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="glowing-orb"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">Your Name</h1>
+                <p class="hero-subtitle">Creative Developer & UI/UX Designer</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about scroll-section">
+            <div class="container">
+                <img src="https://picsum.photos/seed/astra-proj3/400/300" alt="Your Name" class="about-image">
+                <h2 class="section-title">About Me</h2>
+                <p class="about-text">
+                    A brief, elegant paragraph about yourself. Your passion for design, your skills in development, and what drives you to create beautiful and functional digital experiences. Keep it concise and impactful.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills scroll-section">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item"><span>HTML5</span></div>
+                    <div class="skill-item"><span>CSS3</span></div>
+                    <div class="skill-item"><span>JavaScript</span></div>
+                    <div class="skill-item"><span>React</span></div>
+                    <div class="skill-item"><span>Node.js</span></div>
+                    <div class="skill-item"><span>Figma</span></div>
+                    <div class="skill-item"><span>UI/UX</span></div>
+                    <div class="skill-item"><span>Responsive</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects scroll-section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="https://picsum.photos/seed/astra-proj3/400/300" alt="Project One" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Project One</h3>
+                            <p class="project-tags"><span>UI/UX</span><span>Web Design</span></p>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://picsum.photos/seed/astra-proj3/400/300" alt="Project Two" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Project Two</h3>
+                            <p class="project-tags"><span>Branding</span><span>Development</span></p>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://picsum.photos/seed/astra-proj3/400/300" alt="Project Three" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Project Three</h3>
+                            <p class="project-tags"><span>Marketing</span><span>SEO</span></p>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials scroll-section">
+            <div class="container">
+                <h2 class="section-title">What Clients Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"An incredible developer with a keen eye for design. The final product exceeded all expectations. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://picsum.photos/seed/astra-client1/50/50" alt="Client One" class="author-image">
+                            <div>
+                                <h4 class="author-name">Jane Doe</h4>
+                                <p class="author-role">CEO, Tech Innovators</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"Working with them was a seamless experience. Professional, responsive, and delivered outstanding results on a tight deadline."</p>
+                        <div class="testimonial-author">
+                            <img src="https://picsum.photos/seed/astra-client2/50/50" alt="Client Two" class="author-image">
+                            <div>
+                                <h4 class="author-name">John Smith</h4>
+                                <p class="author-role">Founder, Creative Minds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact scroll-section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        Send Message
+                        <span class="bouncing-dot"></span>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
